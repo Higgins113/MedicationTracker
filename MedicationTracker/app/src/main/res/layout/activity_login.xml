@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.stephen.medicationtracker.Login">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Username"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:id="@+id/editTextRegisterUsername"
+        style="@style/AlertDialog.AppCompat"
+        android:elevation="1dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editTextRegisterUsername"
+        android:layout_alignLeft="@+id/editTextRegisterUsername"
+        android:layout_alignStart="@+id/editTextRegisterUsername"
+        android:layout_marginTop="23dp"
+        android:id="@+id/editTextRegisterPassword"
+        android:text=""
+        android:hint="Password"
+        style="@style/AlertDialog.AppCompat"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextRegisterPassword"
+        android:layout_marginTop="13dp"
+        android:id="@+id/buttonLogin"
+        android:layout_alignLeft="@+id/editTextRegisterPassword"
+        android:layout_alignStart="@+id/editTextRegisterPassword"
+        android:layout_alignRight="@+id/editTextRegisterPassword"
+        android:layout_alignEnd="@+id/editTextRegisterPassword" />
+
+    <TextView
+        android:text="Not Registered? Sign up by clicking here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRegister"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Directions"
+        android:id="@+id/buttonTestMap"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

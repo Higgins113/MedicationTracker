@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/medName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Med Name"
+        android:singleLine = "true"
+        android:ellipsize = "end"
+        />
+
+    <!--<TextView
+        android:id="@+id/medStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Med Start Date"
+        android:singleLine = "true"
+        android:ellipsize = "end"/>-->
+
+    <TextView
+        android:id="@+id/medQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Med Quantity"
+        android:singleLine = "true"
+        android:ellipsize = "end"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<TextView
+        android:id="@+id/medDosage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Med Dosage"
+        android:singleLine = "true"
+        android:ellipsize = "end"/>
+
+    <TextView
+        android:id="@+id/medType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Med Type" />
+    <TextView
+        android:id="@+id/ingestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingestion Method" />
+
+
+ -->
+</RelativeLayout>
